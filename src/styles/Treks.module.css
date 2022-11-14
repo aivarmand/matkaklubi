@@ -8,3 +8,17 @@
     padding-left: 72px;
     padding-right: 80px;
 }
+
+.matk {
+    padding: 10px 5px 20px 5px;
+}
+
+.matkad {
+    display: flex;
+}
+
+.pildiKonteiner {
+    width: 300px;
+    height: 225px;
+    position: relative;
+}

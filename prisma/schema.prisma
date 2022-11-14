@@ -22,4 +22,11 @@ model Trek {
   createdAt   DateTime @default(now())
   title       String
   description String
+  startsAt    String
+  endsAt      String
+  locationDsecription String
+  locationLongitude String
+  locationLatitude String
+  price String
+  imageUrl String
 }
