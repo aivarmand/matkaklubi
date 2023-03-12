@@ -1,131 +1,110 @@
-.container {
-  padding: 0 0.5rem;
+.pais {
+  background-image: url("../../public/Hills.png");
+  height: 778px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+  padding-left: 72px;
+  padding-right: 80px;
+}
+
+.paisNav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.header {
-  padding: 4rem 0 2rem 0;
-}
-
-.main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 500px;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.title,
-.desc {
-  text-align: center;
-}
-
-.desc {
-  line-height: 1.5;
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-.addTodo {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-}
-
-.input {
-  padding: 1rem;
-  border: solid 2px;
-  border-color: #cccccc;
-  border-radius: 4px;
-  flex-grow: 1;
-  margin-right: 0.5rem;
-  font-size: 1em;
-}
-
-.addButton {
-  width: 80px;
-  color: white;
-  background-color: #0070f3;
-  border-color: #0070f3;
-  font-size: 1em;
-  border: solid 2px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.addButton:hover {
-  color: #0070f3;
-  background-color: white;
-  border-color: #0070f3;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.todoList {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.todo {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.label {
-  flex-grow: 1;
-  font-size: 1.1rem;
-  padding: 0.5rem 0;
-  cursor: pointer;
+.logo {
+  text-decoration: none;
+  display: flex;
 }
 
-.checkbox {
-  margin-right: 1rem;
+.logoPilt {
+  height: 64px;
+  width: auto;
 }
 
-.checked {
-  text-decoration: line-through;
+.logoTekst {
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 35px;
+  color: #0B0B0B;
+  display: flex;
+  flex-direction: column;
 }
 
-.deleteButton {
-  font-size: 1rem;
+.paremPool {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 2.67px;
+  display: flex;
+  align-items: center;
+}
+
+.paremPoolLink {
+  margin-left: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.paisAlumine {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paisAlumineSisu {
+  margin-top: 230px;
+  font-weight: 800;
+}
+
+.peaklirjad {
+  font-weight: 800;
+  letter-spacing: 0px;
+  color:#0B0B0B;
+}
+
+.paisAlumineSisuH2 {
+  font-size: 40px;
+  line-height: 43px;
+}
+
+.paisAlumineSisuH1 {
+  font-size: 74px;
+  margin-top: -10px;
+  line-height: 43px;
+}
+
+.paisAlumineSisuH4 {
+  font-size: 21px;
+  margin-top: -10px;
+  line-height: 29px;
+}
+
+.paisAlumineSisuNupp {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2.25px;
+  line-height: 29px;
+  background-color: #000000;
   border: none;
-  background: none;
-  color: darkgrey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   cursor: pointer;
+  width: 247px;
+  height: 58px;
 }
 
-.deleteButton:hover {
-  color: var(--primary);
-}
-
-.emptyState {
-}
-
-@media (max-width: 600px) {
-  .main {
-    min-width: auto;
-    width: 100%;
-  }
+.paisAluminePilt {
+  background-image: url("../../public/Image.png");
+  height: 915px;
+  width: 915px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -300px;
+  border-radius: 500px;
+  filter: drop-shadow(0px 70px 40px #000);
 }
